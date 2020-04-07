@@ -4,7 +4,7 @@ const UserCard = props => {
     //console.log(props.user)
     return (
         <div className='card'>
-            <img src={props.user.avatar_url} alt='users github profile picture'/>
+            <img src={props.user.avatar_url} alt='User'/>
             <h3 className='name'>{props.user.name}</h3>
             <p className='username'>{props.user.login}</p>
             <p>Location: {props.user.location}</p>
